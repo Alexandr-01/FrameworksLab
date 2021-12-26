@@ -1,0 +1,4 @@
+FROM ubuntu:latest
+WORKDIR /root
+COPY First_lab.sh .
+RUN ./First_lab.sh
